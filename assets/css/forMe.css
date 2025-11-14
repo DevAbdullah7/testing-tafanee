@@ -1,0 +1,27 @@
+
+/* --Hovering Title -- */
+.sidePanel .item[data-title]:hover:after {
+    opacity: 1;
+    visibility: visible;
+    transition: all ease-in-out .3s;
+}
+.sidePanel .item[data-title]:after {
+    position: absolute;
+    content: attr(data-title);
+    bottom: -75%;
+    left: 8px;
+    transform: translateY(-50%);
+    padding: var(--space-2) var(--space-4);
+    border-radius: var(--borderRedius-XS);
+    color: var(--primaryColor-2);
+    background: var(--primaryColor-1);
+    font-size: var(--fontSize-XXS);
+    white-space: wrap;
+    box-shadow: var(--shadow-SM);
+    opacity: 0;
+    z-index: 99999;
+    visibility: hidden;
+}
+.sidePanel .item[data-title] {
+    position: relative;
+}

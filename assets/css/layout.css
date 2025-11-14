@@ -1,0 +1,109 @@
+/* Main Content */
+.content .contentBody {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: var(--space-7);
+}
+
+.content .tapsContainer {
+    height: fit-content;
+    max-height: calc(100% - 66.4px);
+}
+
+/* Content Side Section */
+.content .contentSide {
+    position: relative;
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: var(--shadow-SM);
+}
+
+.contentSide .sideHeader {
+    width: 100%;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    color: var(--primaryColor-2);
+    background: var(--primaryColor-1);
+}
+
+.contentSide .sideContent {
+    width: 100%;
+    height: 768px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px;
+    overflow-y: scroll;
+}
+
+.barenchDetails {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    cursor: default;
+    transition: all ease-in-out .3s;
+}
+
+.barenchDetails:hover {
+    gap: var(--space-3);
+}
+.barenchDetails .BTN {
+    opacity: .2;
+    width: 0px;
+    height: 0px;
+    padding: 0;
+}
+.barenchDetails:hover .BTN {
+    width: 24px;
+    height: 24px;
+    padding: var(--space-2);
+    opacity: 1;
+}
+
+.barenchDetails .contentContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: var(--space-1);
+    padding: var(--space-2) 0;
+    border-bottom: 1px solid var(--lightColor-1);
+}
+.barenchDetails .contentContainer:last-child {
+    /* border-bottom: none; */
+}
+
+.contentContainer .barenchName {
+    font-size: var(--fontSize-SM);
+    color: var(--typographyColor-1);
+}
+
+.contentContainer .barnchDetail {
+    font-size: var(--fontSize-XXXS);
+    color: #404040;
+}
+
+.content .actioncallBTNS {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: var(--space-6);
+}
+

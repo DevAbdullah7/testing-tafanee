@@ -1,0 +1,673 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/layout.css">
+</head>
+<body>
+    <div class="sidePanel">
+        <div class="logo">
+            <img src="../assets/imgs/Logo/logo-02.svg" alt="">
+        </div>
+        <div class="profile">
+            <div class="profileInfo">
+                <div class="item userImg">
+                    <img src="../assets/imgs/67982210.png" alt="">
+                </div>
+                <p class="name">Abdullah</p>
+            </div>
+            <div class="itemsContainer">
+                <a href="../main.html" class="item">
+                    <div class="icon">
+                        <ion-icon name="home"></ion-icon>
+                    </div>
+                    <p>home</p>
+                </a>
+                <a href="" class="item">
+                    <div class="icon">
+                        <ion-icon name="notifications"></ion-icon>
+                    </div>
+                    <p>notifications</p>
+                </a>
+                <a href="" class="item">
+                    <div class="icon">
+                        <ion-icon name="log-out-outline"></ion-icon>
+                    </div>
+                    <p>exit</p>
+                </a>
+                <a href="" class="item">
+                    <div class="icon">
+                        <ion-icon name="settings-outline"></ion-icon>
+                    </div>
+                    <p>settings</p>
+                </a>
+            </div>
+        </div>
+        <div class="itemsContainer">
+            <a href="#" class="item">
+                <div class="icon">
+                    <ion-icon name="home"></ion-icon>
+                </div>
+                <p>home</p>
+            </a>
+            <a href="#" class="item">
+                <div class="icon">
+                    <ion-icon name="home"></ion-icon>
+                </div>
+                <p>home</p>
+            </a>
+            <a href="#" class="item">
+                <div class="icon">
+                    <ion-icon name="home"></ion-icon>
+                </div>
+                <p>home</p>
+            </a>
+            <a href="#" class="item">
+                <div class="icon">
+                    <ion-icon name="home"></ion-icon>
+                </div>
+                <p>home</p>
+            </a>
+        </div>
+    </div>
+    <!-- Main Content Container -->
+    <div class="main">
+        <div class="mainHeader">
+            <div class="navigator">
+                <a href="../main.html" class="navigatorStart">
+                    <ion-icon name="home-outline"></ion-icon>
+                </a>
+                <a href="#" class="navigatorItem">
+                    Navigator Item
+                </a>
+                <a href="#" class="navigatorEnd">
+                    Navigator End
+                </a>
+            </div>
+            <div class="BTN Helping-BTN">
+                <ion-icon name="help-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="mainContent">
+            <div class="sctionContent">
+                <div class="tapsContainer">
+                    <div class="tap" status="NotCompleted">
+                        <div class="tapHeader">
+                            <div class="tapIcon">
+                            </div>
+                            <div class="tapTitle">
+                                Branch Details
+                            </div>
+                            <div class="tapArrow" onclick="tapsHandlling(this)">
+                                <ion-icon name="caret-down-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="tapContent">
+                            <div class="input">
+                                <label for="">
+                                    Branch Type
+                                </label>
+                                <div class="inputContent">
+                                    <div class="radio">
+                                        <input type="radio" id="radio" class="radioInp" onchange="radiosHandelling(this)">
+                                        <label for="radio" class="radioLabel">Sales</label>
+                                    </div>
+                                    <div class="radio">
+                                        <input type="radio" id="radio" class="radioInp" onchange="radiosHandelling(this)">
+                                        <label for="radio" class="radioLabel">Management</label>
+                                    </div>
+                                    <div class="radio">
+                                        <input type="radio" id="radio" class="radioInp" disabled onchange="radiosHandelling(this)">
+                                        <label for="radio" class="radioLabel">Warhouse</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input">
+                                <label for="">Branch Name</label>
+                                <div class="inputContainer">
+                                    <input type="text" name="" id="" placeholder="Field Example" onkeypress="inputHandlling(this)">
+                                </div>
+                            </div>
+                            <div class="input">
+                                <label for="">Branch Country</label>
+                                <div class="inputContainer">
+                                    <input type="text" name="" id="" placeholder="Field Example" onkeypress="inputHandlling(this)">
+                                </div>
+                            </div>
+                            <div class="input">
+                                <label for="">Branch City</label>
+                                <div class="inputContainer">
+                                    <input type="text" name="" id="" placeholder="Field Example" onkeypress="inputHandlling(this)">
+                                </div>
+                            </div>
+                            <div class="input">
+                                <label for="">Branch Section</label>
+                                <div class="inputContainer">
+                                    <input type="text" name="" id="" placeholder="Field Example" onkeypress="inputHandlling(this)">
+                                </div>
+                            </div>
+                            <div class="input">
+                                <label for="">Branch Phone Number</label>
+                                <div class="inputContainer">
+                                    <input type="text" name="" id="" placeholder="Field Example" onkeypress="inputHandlling(this)">
+                                </div>
+                            </div>
+                            <div class="input">
+                                <label for="">Another Phone Number</label>
+                                <div class="inputContainer">
+                                    <input type="text" name="" id="" placeholder="Field Example" onkeypress="inputHandlling(this)">
+                                </div>
+                            </div>
+                            <div class="input">
+                                <label for="">Branch Email</label>
+                                <div class="inputContainer">
+                                    <input type="text" name="" id="" placeholder="Field Example" onkeypress="inputHandlling(this)">
+                                </div>
+                            </div>
+                            <div class="input">
+                                <label for="">Branch Email</label>
+                                <div class="inputContainer">
+                                    <input type="text" name="" id="" placeholder="Field Example" onkeypress="inputHandlling(this)">
+                                </div>
+                            </div>
+                            <div class="input">
+                                <label for="">Branch Email</label>
+                                <div class="inputContainer">
+                                    <input type="text" name="" id="" placeholder="Field Example" onkeypress="inputHandlling(this)">
+                                </div>
+                            </div>
+                            <div class="input">
+                                <label for="">Branch Email</label>
+                                <div class="inputContainer">
+                                    <input type="text" name="" id="" placeholder="Field Example" onkeypress="inputHandlling(this)">
+                                </div>
+                            </div>
+                            <div class="input">
+                                <label for="">Branch Email</label>
+                                <div class="inputContainer">
+                                    <input type="text" name="" id="" placeholder="Field Example" onkeypress="inputHandlling(this)">
+                                </div>
+                            </div>
+                            <div class="input">
+                                <label for="">Branch P.O. Box</label>
+                                <div class="inputContainer">
+                                    <textarea name="" id="" placeholder="Field Example" onkeypress="inputHandlling(this)"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tap" status="NotCompleted">
+                        <div class="tapHeader">
+                            <div class="tapIcon">
+                            </div>
+                            <div class="tapTitle">
+                                Branch Details
+                            </div>
+                            <div class="tapArrow" onclick="tapsHandlling(this)">
+                                <ion-icon name="caret-down-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="tapContent">
+                            <div class="input">
+                                <label for="">
+                                    Branch Type
+                                </label>
+                                <div class="inputContent">
+                                    <div class="radio">
+                                        <input type="radio" id="radio" class="radioInp" onchange="radiosHandelling(this)">
+                                        <label for="radio" class="radioLabel">Sales</label>
+                                    </div>
+                                    <div class="radio">
+                                        <input type="radio" id="radio" class="radioInp" onchange="radiosHandelling(this)">
+                                        <label for="radio" class="radioLabel">Management</label>
+                                    </div>
+                                    <div class="radio">
+                                        <input type="radio" id="radio" class="radioInp" disabled onchange="radiosHandelling(this)">
+                                        <label for="radio" class="radioLabel">Warhouse</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input">
+                                <label for="">Branch Name</label>
+                                <div class="inputContainer">
+                                    <input type="text" name="" id="" placeholder="Field Example" onkeypress="inputHandlling(this)">
+                                </div>
+                            </div>
+                            <div class="input">
+                                <label for="">Branch Country</label>
+                                <div class="inputContainer">
+                                    <input type="text" name="" id="" placeholder="Field Example" onkeypress="inputHandlling(this)">
+                                </div>
+                            </div>
+                            <div class="input">
+                                <label for="">Branch City</label>
+                                <div class="inputContainer">
+                                    <input type="text" name="" id="" placeholder="Field Example" onkeypress="inputHandlling(this)">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="actioncallBTNS">
+                    <div class="BTN Primary-BTN Applay-BTN">
+                        Save
+                    </div>
+                    <div class="BTN Primary-BTN Archive1-BTN">
+                        Cancel
+                    </div>
+                </div>
+            </div>
+            <div class="contentSide">
+                <div class="sideHeader">
+                    Last Added
+                </div>
+                <div class="sideContent">
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="barenchDetails">
+                        <div class="BTN Secondary-BTN EditSmallIcon-BTN">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                        </div>
+                        <div class="contentContainer">
+                            <div class="barnchName">
+                                Barnch Name - اسم الفرع
+                            </div>
+                            <div class="barnchDetail">
+                                Sales - Riyadh, KSA
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="topArrow" onclick="window.scrollTo(0,0)">
+            <ion-icon name="arrow-up-outline"></ion-icon>
+        </div>
+    </div>
+
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- Js Files -->
+    <script src="../main.js"></script>
+    <script src="./layout.js"></script>
+</body>
+</html>
